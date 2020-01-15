@@ -1,5 +1,5 @@
 var uuid=require("uuid");
-module.exports = class defaultIndex
+module.exports = class smsauthIndex
 {
 	constructor(config,dist)
 	{

@@ -1,4 +1,4 @@
-module.exports = class defaultConfig
+module.exports = class smsauthConfig
 {
     constructor(config)
     { 
@@ -20,8 +20,7 @@ module.exports = class defaultConfig
     }
     getDefaultConfig()
     {
-      return 
-	  {
+      return{
 		context:"",  
 		attach:{  },
 		 
