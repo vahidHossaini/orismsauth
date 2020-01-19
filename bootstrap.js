@@ -7,7 +7,7 @@ module.exports = class smsauthBootstrap{
           title:'login with mobile number' ,
           inputs:[
 			{
-				name:'mobile',
+				name:'phone',
 				type:'string',
 				nullable:false
 			}
