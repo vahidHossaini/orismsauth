@@ -23,6 +23,9 @@ module.exports = class smsauthIndex
         var dt=msg.data;
         if(this.ccontext)
         {
+            var a = await global.captcha.validate(dt.captcha)
+            if(!a)
+                return func({m:"smsauth001"})
             
         }
 		var code = await global.db.SearchOne(self.context,'smsauth_code',{where:{phone:dt.phone}});

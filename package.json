@@ -1,6 +1,6 @@
 {
   "name": "orismsauth",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "origami sms authentication",
   "main": "index.js",
   "scripts": {
